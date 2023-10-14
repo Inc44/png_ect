@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.png\shell\CompressImage\command]
+@="\"C:\\ParallelExecutor\\ParallelExecutor\\target\\release\\parallel_executor.exe\" %*"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CompressImage\command]
+@="\"C:\\ParallelExecutor\\ParallelExecutor\\target\\release\\parallel_executor.exe\" %*"
