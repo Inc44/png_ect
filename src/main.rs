@@ -11,7 +11,7 @@ use walkdir::WalkDir;
 fn process_image(path: &Path, compression_level: Option<u8>) -> Result<(), Error> {
     let compression_arg = match compression_level {
         Some(level) => format!("-{}", level),
-        None => String::new(),
+        None => String::from("-9"),
     };
 
     let output = Command::new("ect")

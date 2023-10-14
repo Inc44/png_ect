@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\CompressWithECT]
+@="Compress PNGs"
+
+[HKEY_CLASSES_ROOT\*\shell\CompressWithECT\command]
+@="\"C:\\parallel_executor\\bat.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\CompressWithECT]
+@="Compress PNGs"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CompressWithECT\command]
+@="\"C:\\parallel_executor\\bat.bat\" \"%1\""
