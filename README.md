@@ -1,7 +1,7 @@
 # 🖼️ PNG ECT 🧼
 
 ## Introduction
-PNG ECT, standing for PNG Efficient Compression Tool, is a useful tool created with ❤️ using Rust. It compresses PNG images quickly and efficiently, making them lighter without compromising quality. Harnessing the power of [Rayon](https://crates.io/crates/rayon), it speeds through the compression tasks with precision.
+PNG ECT, standing for PNG Efficient Compression Tool, is a useful tool created with ❤️ using Rust. It compresses PNG images quickly and efficiently, making them lighter without compromising quality. It's fast, efficient, and precise.
 
 ## Features 🌟
 - 🚀 High-speed image compression powered by [Rayon](https://crates.io/crates/rayon).
