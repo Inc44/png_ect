@@ -63,7 +63,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "parallel_executor"
+name = "png_ect"
 version = "1.0.0"
 dependencies = [
  "rayon",

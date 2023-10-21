@@ -10,4 +10,4 @@ shift
 goto loop
 
 :execute_command
-parallel_executor %file_list%
+png_ect %file_list%
