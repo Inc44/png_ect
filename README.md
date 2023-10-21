@@ -12,7 +12,7 @@ PNG ECT, standing for PNG Efficient Compression Tool, is a useful tool created w
 
 ## How to Use 💼
 
-If you are on Windows, simply download the .exe file. Also add `ect` to path [ECT](https://github.com/fhanau/Efficient-Compression-Tool)
+If you are on Windows, simply download the .exe file. Also add [ECT](https://github.com/fhanau/Efficient-Compression-Tool) to path .
 
 ## Build the Project 🚀
 
