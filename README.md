@@ -5,7 +5,6 @@ PNG ECT, standing for PNG Efficient Compression Tool, is a useful tool created w
 
 ## Features 🌟
 - 🚀 High-speed image compression powered by [Rayon](https://crates.io/crates/rayon).
-- 🖼️ Exclusive support for PNG format, ensuring optimized compression.
 - 🗂️ Batch process multiple images at once.
 - 📁 Organized output to keep trimmed images together.
 - 🛠️ Easy-to-use command-line interface.
