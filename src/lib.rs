@@ -54,7 +54,7 @@ pub fn process_image(path: &Path, compression_level: Option<u8>) -> Result<(), B
 
 pub fn process_directory(input_path: &Path, compression_level: Option<u8>) -> Result<(), AppError> {
     if input_path.is_dir() {
-        let mut paths: Vec<_> = WalkDir::new(input_path)
+        let paths: Vec<_> = WalkDir::new(input_path)
             .into_iter()
             .filter_map(|e| e.ok())
             .filter(|e| {
@@ -62,7 +62,7 @@ pub fn process_directory(input_path: &Path, compression_level: Option<u8>) -> Re
             })
             .map(|e| e.path().to_owned())
             .collect();
-        paths.sort();
+
         paths.par_iter().for_each(|path| {
             if let Err(e) = process_image(path, compression_level) {
                 eprintln!("Failed to process {}: {}", path.display(), e);
