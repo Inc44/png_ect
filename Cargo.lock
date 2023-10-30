@@ -64,7 +64,7 @@ dependencies = [
 
 [[package]]
 name = "png_ect"
-version = "1.0.2"
+version = "1.0.0"
 dependencies = [
  "rayon",
  "walkdir",
