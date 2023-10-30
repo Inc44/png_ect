@@ -1,6 +1,6 @@
 [package]
 name = "png_ect"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "A command-line tool for compressing png images using ECT."
 license = "MIT"
